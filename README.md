@@ -7,3 +7,8 @@ Para esto se divide en varias etapas las cuales se desarrollaran en el periodo d
       Login: Se creo el Front que contiene una imagen, dos PlainTExt, un boton con la decoracion del cardboard, y un textView además de la relación del textview (Register Here!) con la activity de Registro
       Registro: See creo el Front que consiste de 7 PlainText, 2 TextVew y un boton con la decoracion del cardboard además de la relación del textview (Back) con la activity de Registro, tambien se le desavilito la ToolBar
       Información Usuario: Se creo el Front que consite en 7 TextView
+Segundo Avance:   
+1.Descargar la bases de datos a utiliazar Xampp - https://www.apachefriends.org/download.html -.
+  2.Despues iniciar el control Panel del programa. 
+    3.Iniciar Apache y MySQL.
+      4.Poner Administrar a MYSQL y crear la base de datos.

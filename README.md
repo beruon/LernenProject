@@ -9,10 +9,10 @@ Para esto se divide en varias etapas las cuales se desarrollaran en el periodo d
       Información Usuario: Se creo el Front que consite en 7 TextView.
       
 Segundo Avance:   
-1.Descargar la bases de datos a utiliazar Xampp - https://www.apachefriends.org/download.html -.
-2.Despues iniciar el control Panel del programa. 
-3.Iniciar Apache y MySQL.
-4.Poner Administrar a MYSQL y crear la base de datos.
+  1.Descargar la bases de datos a utiliazar Xampp - https://www.apachefriends.org/download.html -.
+  2.Despues iniciar el control Panel del programa. 
+  3.Iniciar Apache y MySQL.
+  4.Poner Administrar a MYSQL y crear la base de datos.
       
 Tercer Avance:
 Se crean archivos que relacionan la base de datos con el proyecto.

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+
+    <TextView
+        android:id="@+id/TituloPagina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Registro"
+        android:textSize="25sp" />
+
+
+
+        <EditText
+            android:id="@+id/campoRUsuario"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Usuario" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/campoRNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/campoRApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Apellido" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/campoRTelefono"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="numero de celular"/>
+
+    <EditText
+        android:id="@+id/campoRfechaNacimiento"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Fecha de nacimiento"/>
+
+    <EditText
+        android:id="@+id/campoRemail"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="email"/>
+
+    <EditText
+        android:id="@+id/campoRpassword"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textSize="16sp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp" >
+
+        <Button
+            android:id="@+id/botonRSingUP"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/colorAccent"
+            android:text="Sing up"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/volverRLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>

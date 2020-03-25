@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="155dp"
+        android:layout_height="130dp"
+        android:contentDescription="Imagen del logo"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ListView
+        android:layout_width="409dp"
+        android:layout_height="583dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <REGRESAR
+        android:id="@+id/button6"
+        android:layout_width="78dp"
+        android:layout_height="30dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
